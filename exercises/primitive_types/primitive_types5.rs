@@ -6,11 +6,8 @@
 // for a hint.
 
 
-#[test]
-fn slice_out_of_array() {
-    let a = [1, 2, 3, 4, 5];
-
-    let nice_slice = [2,3,4];
-
-    assert_eq!([2, 3, 4], nice_slice)
+fn main(){
+    let cat =("Furry McFurson",3.5);
+    let (name,age) = cat ;
+    println!("{} is {} years old.",name ,age);
 }
